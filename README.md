@@ -13,38 +13,16 @@ Enables early wildfire risk detection of regions, supporting faster response tim
 
 ## 📌 Dataset Features
 - 🌡️ Weather: temperature, humidity, wind speed, rainfall  
-- 📈 FWI indices: FFMC, DMC, DC, ISI, BUI, FWI
-
-Here are the FWI (Fire Weather Index) system indices in short, clear terms:
-
-FFMC (Fine Fuel Moisture Code) 🔥
-How dry the surface litter is (leaves, small twigs). Higher = easier to ignite.
-
-DMC (Duff Moisture Code) 🍂
-Dryness of the shallow organic layer under the surface. Higher = fires spread/smolder more.
-
-DC (Drought Code) 🌵
-Long-term dryness of deep, compact organic matter. Higher = drought conditions, harder-to-control fires.
-
-ISI (Initial Spread Index) 🌬️
-How fast a fire can spread at the start, mainly driven by wind + surface fuel dryness.
-
-BUI (Build Up Index) 🪵
-How much fuel is available to burn (combines DMC + DC). Higher = more intense potential fire.
-
-FWI (Fire Weather Index) 📈
-Overall fire intensity risk (a combined final score). Higher = more severe fire potential.
+- 📈 Fire Weather Indices(FWI): FFMC, DMC, DC, ISI, BUI, FWI
 
 ## 🚀 How to Run
-1. Create environment + install Algerian_forest_fires_dataset.csv
-2. Run the notebook/script in order:
+1. Open the MLModel.ipynb in Google Collab + install & upload Algerian_forest_fires_dataset.csv in content file
+2. Run the notebook in order:
    - `preprocess` → `train` → `evaluate`
-
-> (Add your real filenames here, like `fire_forecasting.ipynb` or `src/train.py`.)
 
 ## 🔭 Next Improvements
 - Try stronger models (Random Forest, XGBoost, Neural Nets)  
 - Add richer features (soil moisture, vegetation, drought indices)  
-- Integrate real-time weather/satellite feeds :contentReference[oaicite:9]{index=9}
+- Integrate real-time weather/satellite feeds 
 
-<p align="center"><em>⭐ Please feel free to explore all my projects below which have detailed explanations ⭐</em></p>
+<p align="center"><em>⭐ Please feel free to explore my other projects on Github ⭐</em></p>
