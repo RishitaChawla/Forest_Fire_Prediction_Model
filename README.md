@@ -1,5 +1,11 @@
+
 # 🔥 Leveraging Machine Learning for Forest Fire Prediction
 Built a machine learning classifier model to predict “Fire” vs “No Fire” for a region using weather conditions and Fire Weather Index (FWI) features as input.
+
+## 🚀 How to Run
+1. Open the MLModel.ipynb in Google Collab + install & upload Algerian_forest_fires_dataset.csv in content file
+2. Run the notebook in order:
+   - `preprocess` → `train` → `evaluate`
 
 ## 🎯 Impact
 Enables early wildfire risk detection of regions, supporting faster response times and smarter deployment of firefighting resources.
@@ -15,10 +21,6 @@ Enables early wildfire risk detection of regions, supporting faster response tim
 - 🌡️ Weather: temperature, humidity, wind speed, rainfall  
 - 📈 Fire Weather Indices(FWI): FFMC, DMC, DC, ISI, BUI, FWI
 
-## 🚀 How to Run
-1. Open the MLModel.ipynb in Google Collab + install & upload Algerian_forest_fires_dataset.csv in content file
-2. Run the notebook in order:
-   - `preprocess` → `train` → `evaluate`
 
 ## 🔭 Next Improvements
 - Try stronger models (Random Forest, XGBoost, Neural Nets)  
